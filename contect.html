@@ -3,67 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elegant Jewelry</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>Contact Us - Elegant Jewelry</title>
+    <link rel="stylesheet" href="contect.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1> Jewellry shop</h1>
+        <h1>Elegant Jewelry</h1>
+        <p>Timeless Pieces for Timeless Beauty</p>
     </header>
 
     <nav>
         <a href="./index.html">Home</a>
-        <a href="#products">Products</a>
-        <a href="#about">About Us</a>
+        <a href="./product.html">Products</a>
+        <a href="./about.html">About Us</a>
         <a href="./contect.html">Contact</a>
     </nav>
 
-    <section>
-        <section class="contact-section">
-            <div class="container">
-                <h2>Contact Our Team</h2>
-                <p>Feel free to get in touch with any of our team members directly.</p>
-    
-                <div class="contact-boxes">
-                    <!-- Member 1 -->
-                    <div class="contact-box">
-                        <h3>Vraj Patel</h3>
-                        <p>Role: Project Manager</p>
-                        <p>Email: vrajpatel@travel.com</p>
-                        <p>Phone: +91 9898989898</p>
-                    </div>
-    
-                    <!-- Member 2 -->
-                    <div class="contact-box">
-                        <h3>Meet Patel</h3>
-                        <p>Role: Marketing Lead</p>
-                        <p>Email: meetpatel@travel.com</p>
-                        <p>Phone: +91 9797979797</p>
-                    </div>
-    
-                    <!-- Member 3 -->
-                    <div class="contact-box">
-                        <h3>Trush Patel</h3>
-                        <p>Role: Development Head</p>
-                        <p>Email: trushpatel@travel.com</p>
-                        <p>Phone: +91 9696969696</p>
-                    </div>
-    
-                    <!-- Member 4 -->
-                    <div class="contact-box">
-                        <h3>Manav Patel</h3>
-                        <p>Role: Operations Manager</p>
-                        <p>Email: manavpatel@travel.com</p>
-                        <p>Phone: +91 9595959595</p>
-                    </div>
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Our Team</h2>
+            <p>Feel free to get in touch with any of our team members directly or use the form below to send us a message.</p>
+
+            <div class="contact-boxes">
+                <!-- Member 1 -->
+                <div class="contact-box">
+                    <h3>Vraj Patel</h3>
+                    <p>Role: Project Manager</p>
+                    <p>Email: vrajpatel@jewellry.com</p>
+                    <p>Phone: +91 9898989898</p>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="contact-box">
+                    <h3>Meet Patel</h3>
+                    <p>Role: Marketing Lead</p>
+                    <p>Email: meetpatel@jewellry.com</p>
+                    <p>Phone: +91 9797979797</p>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="contact-box">
+                    <h3>Trush Patel</h3>
+                    <p>Role: Development Head</p>
+                    <p>Email: trushpatel@jewellry.com</p>
+                    <p>Phone: +91 9696969696</p>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="contact-box">
+                    <h3>Manav Patel</h3>
+                    <p>Role: Operations Manager</p>
+                    <p>Email: manavpatel@jewellry.com</p>
+                    <p>Phone: +91 9595959595</p>
                 </div>
             </div>
-        </section>
 
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
 
+            
+        </div>
     </section>
+
     <footer>
-        <p>&copy; 2025 Jewelry. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Elegant Jewelry offers timeless pieces crafted with precision and passion. Discover our story and commitment to quality.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contect.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@elegantjewelry.com</p>
+                <p>Phone: +91 123 456 7890</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Elegant Jewelry. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
